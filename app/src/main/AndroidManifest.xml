@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cl.ubb.manhattan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".vegetariano"
+            android:label="@string/boton7"
+            android:parentActivityName=".Menu"/>
+        <activity android:name=".mechada"
+            android:label="@string/boton4"
+            android:parentActivityName=".Menu"/>
+        <activity android:name=".barrosluco"
+            android:label="@string/boton5"
+            android:parentActivityName=".Menu"/>
+        <activity android:name=".aleman"
+            android:label="@string/boton6"
+            android:parentActivityName=".Menu"/>
+        <activity android:name=".italiano"
+            android:label="@string/boton3"
+            android:parentActivityName=".Menu" />
+        <activity android:name=".Menu"
+            android:label="@string/boton1"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Acercade"
+            android:label="@string/boton2"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

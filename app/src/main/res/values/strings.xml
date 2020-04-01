@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Manhattan</string>
+    <string name="logo">logo</string>
+    <string name="boton1">Menu</string>
+    <string name="boton2">Acerca de Manhattan</string>
+    <string name="acercade">El mejor local de comida que vas a encontrar en concepcion con mas de 30 años dando gusto al paladar de las personas
+    y como dice nuestro dicho "Si no chorrea no es Manhattan".</string>
+    <string name="boton3">ITALIANO</string>
+    <string name="boton4">MECHADA</string>
+    <string name="boton5">BARROS LUCO</string>
+    <string name="boton6">ALEMAN</string>
+    <string name="boton7">VEGETARIANO</string>
+
+    <string-array name="arrayitaliano">
+        <item>Sandwich Italiano</item>
+        <item>italiano.png</item>
+        <item>Sabroso sandwich con tomate, palta  y machonesa con la proteina que tu quieras</item>
+        <item>$2500 </item>
+    </string-array>
+
+
+    <string-array name="arrayaleman">
+        <item>Sandwich aleman</item>
+        <item>sandwichaleman.png</item>
+        <item>Sabroso sandwich con choclo, chocrut, tomate y machonesa con la proteina que tu quieras</item>
+        <item>$2500 </item>
+    </string-array>
+
+    <string-array name="arraymechada">
+        <item>Sandwich mechada</item>
+        <item>mechada.png</item>
+        <item>Sabroso sandwich con champiñones, tomate, palta  y machonesa con la proteina que tu quieras</item>
+        <item>$2500 </item>
+    </string-array>
+
+    <string-array name="arraybarrosluco">
+        <item>Sandwich barros luco</item>
+        <item>barrosluco.png</item>
+        <item>Sabroso sandwich con queso y con la proteina que tu quieras</item>
+        <item>$2500 </item>
+    </string-array>
+
+    <string-array name="arrayvegetariano">
+        <item>Sandwich vegetariano</item>
+        <item>vegetariano.png</item>
+        <item>Sabroso sandwich con las verduras a tu gusto</item>
+        <item>$2500 </item>
+    </string-array>
+
+
+
+</resources>
